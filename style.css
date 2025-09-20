@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6 rem;
+    /* overflow-x: auto; */
+}
+.header{
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    object-fit: cover;
+    padding-bottom: 0px;
+}
+/* .nav{
+    background-color: rgb(243, 243, 243);;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+} */
+
+.nav ul{
+    display: flex;
+    padding-top: 5px;
+    /* padding-left: ; */
+    gap: 140px;
+    font-family: serif;
+    font-size: 26px;
+    text-align: center;
+
+
+}
+.nav a li{
+    list-style: none;
+    padding-left: 50%;
+    color:white;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    
+}
+.nav a li:hover{
+    color: rgb(255, 124, 1);
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.fi-logo img{
+    height: 86px;
+
+    background-color: transparent;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+body{
+    background-color: rgb(243, 243, 243);
+
+
+}
+#body h3{
+ font-family: serif;
+ font-weight:bold;
+ padding-left: 10%;
+ font-size: 47px;
+}
+#body .gallery{
+ display: inline-flex;
+ height: 200px;
+ width: 100px;
+ gap: 10px;
+ padding: 10px;
+object-fit: cover;
+
+  
+}
+#body .gallery .description {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7px;
+    align-items: center;
+    
+}
+#images h3{
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.search{
+    display: flex;
+    width: 55vh;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+.search input{
+    outline: flex;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search p{
+    color: grey;
+    border-right: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#images{
+    background-image: url(food.png);
+    height: 300px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 250px;
+}
+#content{
+    padding: 25px 0 25px 0;
+}
+#about_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px;
+}
+.about_col{
+    flex: 1;
+}
+#abt_img{
+   width: 400px;
+   height: 400px;
+   border-radius: 50%;
+   margin: auto;
+}
+
+#abt_img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: fill;
+}
+#content p{
+    font-size: 24px;
+}
+#content .about_col{
+    font-size: 50px;
+}
+
+
+@media screen and(max-width:768px){
+    #header{
+        position: absolute;
+    }
+    /* #body {
+        display: block;
+    } */
+    
+    /* #nav ul{
+        display: none;
+    } */
+    #html{
+        font-size: 95%;
+    }
+    .gallery,#about_row{
+        flex-wrap: wrap;
+        padding: 0 18px 0 18px;
+    }
+}
+
+
